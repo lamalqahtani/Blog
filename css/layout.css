@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 3% 1fr 20%;
+    grid-template-areas: 
+    "head head head"
+    "main main main"
+    "foot foot foot";
+    /* border: 2px solid red; */
+}
+.hd{
+    grid-area: head;
+}
+.page-content{
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    "pic"
+    "posts";
+}
+.ft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    grid-area: foot;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    body{
+        color: aqua;
+    }
+  }

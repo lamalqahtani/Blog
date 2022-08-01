@@ -1,0 +1,8 @@
+@import './mobile.css';
+@import './tablet.css';
+@import './web.css';
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300;500;600;800&display=swap');
+
+body{
+    font-family: 'Taviraj', serif;
+}
