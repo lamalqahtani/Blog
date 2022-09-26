@@ -11,3 +11,7 @@ This project represents the first Udacity Front-End Nanodegree Project for a Per
 - Google Fonts.
 - Lorem ipsum.
 - Git and Github.
+
+
+## Deployment
+Used github pages for deploying the project here [https://lamalqahtani.github.io/Blog/index.html].
